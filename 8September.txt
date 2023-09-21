@@ -1,0 +1,189 @@
+Q1. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the number: ");
+		scanf("%d",&num);
+	if(num>50)
+	{
+		printf("num is greater than 50");
+	}
+	else{
+		printf("num is less than 50");
+	}
+	return 0;
+}
+-----------------------------------------------------
+Q2. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	int a;
+	printf("enter the value of a: ");
+	scanf("%d",&a);
+	int b;
+	printf("enter the value of b: ");
+	scanf("%d",&b);
+	if(a>b)
+	{
+		printf("a is greater");
+	}
+	else{
+		printf("b is greater");
+	}
+	return 0;
+}
+------------------------------------------------------
+Q3. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the age: ");
+		scanf("%d",&num);
+	if(num>18)
+	{
+		printf("you are valid");
+	}
+	else{
+		printf("you are not valid");
+	}
+	return 0;
+}
+---------------------------------------------------------
+Q4. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	
+	printf("enter the number: ");
+	scanf("%d",&num);
+	
+	if(num%2==0)
+	{
+		printf("number is even");
+	}
+	else{
+		printf("number is odd");
+	}
+	return 0;
+}
+---------------------------------------------------------
+Q5. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	
+	printf("enter the number: ");
+	scanf("%d",&num);
+	
+	if(num%5==0)
+	{
+		printf("divisible by 5");
+	}
+	else{
+		printf("not divisible by 5");
+	}
+	return 0;
+}
+----------------------------------------------------------
+Q6. Answer
+#include<stdio.h>
+int main()
+{
+	char s;
+	
+	printf("enter the character: ");
+	scanf("%c",&s);
+	
+	if(s=='a' || s=='e' || s=='i' || s=='o' || s=='u')
+	{
+		printf("vowel");
+	}
+	else{
+		printf("consonent");
+	}
+	return 0;
+}
+
+-----------------------------------------------------------
+Q7. Answer
+#include<stdio.h>
+int main()
+{
+	char a;
+	
+	printf("enter the character: ");
+	scanf("%c",&a);
+	
+	if(a=='w' || a=='t' || a=='p')
+	{
+		printf("you are valid");
+	}
+	else{
+		printf("you are not valid");
+	}
+	return 0;
+}
+------------------------------------------------------------
+Q8. Answer
+#include<stdio.h>
+int main()
+{
+	char a;
+	
+	printf("enter the gender: ");
+	scanf("%c",&a);
+	
+	if(a=='f' || a=='m')
+	{
+		printf("this is gender");
+	}
+	else{
+		printf("this is not gender");
+	}
+	return 0;
+}
+---------------------------------------------------------------
+Q9. Answer
+#include<stdio.h>
+int main()
+{
+	int a;
+	
+	printf("enter the number: ");
+	scanf("%d",&a);
+	
+	if(a%3==0 &&  a%7==0)
+	{
+		printf("divisible");
+	}
+	else{
+		printf("not divisible");
+	}
+	return 0;
+}
+----------------------------------------------------------------------
+Q10. Answer
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("enter the character: ");
+	scanf("%c",&ch);
+	
+	if(ch>='a' && ch<='z')
+	{
+		printf("this is a character");
+	} 
+	
+	
+	else {
+		printf("this is not a character");
+	}
+	return 0;
+}
