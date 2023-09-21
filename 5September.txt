@@ -1,0 +1,192 @@
+// Q1. 45+8
+#include<stdio.h>
+ int main()
+ {
+ 	int a=45;
+ 	int b=8;
+ 	int result;
+ 	result=a+b;
+ 	printf("%d",result);
+	 return 0;
+ }
+ -------------------------------------
+// Q2. 23-2
+#include<stdio.h>
+ int main()
+{
+	int a=23;
+	int b=2;
+	int c;
+	c= a -b;
+	printf("%d",c);
+	return 0;
+	
+}
+------------------------------------------
+// Q3. 12*4
+#include<stdio.h>
+ int main()
+ {
+ 	int a=12;
+ 	int b=4;
+ 	int c;
+ 	c=a*b;
+ 	printf("%d",c);
+	 return 0;
+ }
+---------------------------------------------
+// Q4. 12/4
+#include<stdio.h>
+ int main()
+ {
+ 	int a =12;
+ 	int b=4;
+ 	int c;
+ 	c=a/b;
+ 	printf("%d",c);
+	 return 0;
+ }
+--------------------------------------------
+// Q5. 34%2
+#include<stdio.h>
+ int main()
+ {
+  int a=34;
+  int b=2;
+  int c;
+  c=a%b;
+  printf("%d",c);
+ return 0;
+ }
+------------------------------------------------
+// Q6. 23 +9 *5-2
+#include<stdio.h>
+ int main ()
+ {
+  int a=23;
+  int b=9;
+  int c=5;
+  int d=2;
+  int e;
+  e=a+b*5-2;
+  printf("%d",e);
+ return 0;
+ }
+--------------------------------------------------
+// Q7. 23+56-(2.3*3)
+#include<stdio.h>
+ int main()
+ {
+  int a=23;
+  int b=56;
+  float c=2.3;
+  int d=3;
+  float e;
+  e = a + b - ( c * d );
+  printf("%f",e);
+  return 0;
+ }
+-------------------------------------------------------
+// Q8. 2.3*4.5-34+4.5
+#include<stdio.h>
+ int main()
+ {
+  float a=2.3;
+  float b=4.5;
+  int c=34;
+  float d=4.5;
+  float e;
+  e=a*b-c+d;
+  printf("%f",e);
+  return 0;
+ }
+-----------------------------------------------------------
+// Q9. 12-67*5.6-2.3
+#include<stdio.h>
+ int main()
+ {
+  int a=12;
+  int b=67;
+  float c=5.6;
+  float d=2.3;
+  float e;
+  e=a-b*d-d;
+  printf("%f",e);
+  return 0;
+ }
+------------------------------------------------------------
+// Q10. 85*4-(45-3*2-23)
+#include<stdio.h>
+ int main()
+ {
+ 	int a=85;
+ 	int b=4;
+ 	int c=45;
+ 	int d=3;
+ 	int e=2;
+ 	int f=23;
+ 	int g;
+ 	g=a*b-(c-d*e-f);
+ 	printf("%d",g);
+  return 0;
+ }
+------------------------------------------------------------
+// Q11. Area of circle
+#include<stdio.h>
+ int main()
+ {
+ 	int radius=5;
+ 	float pi=3.14;
+ 	float area;
+ 	area=2*radius*pi;
+ 	printf("%f",area);
+	 return 0;
+ }
+----------------------------------------------------------
+// Q12. volume of square 
+#include<stdio.h>
+ int main()
+ {
+ 	int a=2;
+ 	int b;
+ 	b=a*a*a;
+ 	printf("%d",b);
+	 return 0;
+ }
+----------------------------------------------------------
+// Q13. volume of cube 
+#include<stdio.h>
+ int main()
+ {
+ 	int a=4;
+ 	int b;
+ 	b=a*a*a;
+ 	printf("%d",b);
+	 return 0;
+ }
+----------------------------------------------------------
+// Q14. area of cynlinder
+#include<stdio.h>
+ int main()
+ {
+ 	int r=4;
+ 	int h=6;
+ 	float pi=3.14;
+ 	float d;
+ 	d=2*pi*r*h+2*pi*r*r;
+ 	printf("%f",d);
+	 return 0;
+ }
+----------------------------------------------------------
+// Q15. area of sphere
+#include<stdio.h>
+ int main()
+ {
+ 	int r=4;
+ 	float pi=3.14;
+ 	float b;
+ 	b=4*pi*r*r;
+ 	printf("%f",b);
+	 return 0;
+ }
+
