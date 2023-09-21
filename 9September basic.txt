@@ -1,0 +1,279 @@
+Q1. Answer
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the age: ");
+	scanf("%d",&num);
+	if(num>=18)
+	{
+		printf("you are valid");
+		
+	}
+	else{
+		printf("you are not valid");
+	}
+	return 0;
+}
+--------------------------------------------------
+Q2. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int a;
+ 	printf("enter the value of a: ");
+ 	scanf("%d",&a);
+ 	
+ 	if(a>10)
+ 	{
+ 		printf("a is greater than 10");
+	 }
+	 else{
+	 	printf("a is smaller than 10");
+	 }
+ 	return 0;
+ }
+---------------------------------------------------
+Q3. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int a , b;
+ 	printf("enter the value of a: ");
+ 	scanf("%d",&a);
+ 	printf("enter the value of b: ");
+ 	scanf("%d",&b);
+ 	if(a>b)
+ 	{
+ 		printf("a is maximum");
+	 }
+	 else{
+	 	printf("b is maximum");
+	 }
+ 	return 0;
+ }
+-----------------------------------------------------
+Q4. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int a , b ,c;
+ 	printf("enter the value of a: ");
+ 	scanf("%d",&a);
+ 	printf("enter the value of b: ");
+ 	scanf("%d",&b);
+ 	printf("enter the value of c: ");
+ 	scanf("%d",&c);
+	 if(a>b && a>c)
+ 	{
+ 		printf("a is maximum");
+	 }
+	 else if(b>a && b>c )
+	 {
+	 	printf("b is maximum");
+	 }
+	 else{
+	 	printf("c is maximum");
+	 }
+ 	return 0;
+ }
+------------------------------------------------
+Q5. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int a,b,c,e,f;
+ 	printf("enter value of a: ");
+ 	scanf("%d",&a);
+ 	printf("enter value of b: ");
+ 	scanf("%d",&b);
+ 	printf("enter value of c: ");
+ 	scanf("%d",&c);
+ 	printf("enter value of e: ");
+ 	scanf("%d",&e);
+ 	printf("enter value of f: ");
+ 	scanf("%d",&f);
+	 if(a>b && a>c && a>e && a>f)
+ 	{
+ 		printf("a is maximum");
+	 }
+	 else if(b>a && b>c && b>e && b>f)
+	 {
+	 	printf("b is maximum");
+	 }
+	 else if(c>a && c>b && c>e && c>f)
+	 {
+	 	printf("c is maximum");
+	 }
+	 else if(e>a && e>c && e>b && e>f)
+	 {
+	 	printf("e is maximum");
+	 }
+	 else{
+	 	printf("f is maximum ");
+	 }
+	 
+ 	return 0;
+ }
+------------------------------------------------
+Q6. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int num ;
+ 	printf("enter the number: ");
+ 	scanf("%d",&num);
+ 	if(num<0)
+ 	{
+ 		printf("mumber is negative");
+	 }
+	 else if(num>0)
+	 {
+	 	printf("number is positive");
+	 }
+	 else{
+	 	printf("number is zero");
+	 }
+ 	return 0;
+ }
+-------------------------------------------------
+Q7. Answer
+#include<stdio.h>
+int main()
+ {
+ 	char ch ;
+ 	printf("enter the character: ");
+ 	scanf("%c",&ch);
+ 	if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+ 	{
+ 		printf("vowel");
+	 }
+	 else{
+	 	printf("consonant");
+	 }
+	 
+ 	return 0;
+ }
+-----------------------------------------------------
+Q8. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int num ;
+ 	printf("enter the number: ");
+ 	scanf("%d",&num);
+ 	if(num%5==0 && num%11==0)
+ 	{
+ 		printf("number is divisible by both");
+	 }
+	 else{
+	 	printf("number is not divisible ");
+	 }
+	 
+ 	return 0;
+ }
+-------------------------------------------------------
+Q9. Answer
+#include<stdio.h>
+int main()
+ {
+ 	char ch;
+ 	printf("enter the character: ");
+ 	scanf("%c",&ch);
+	 if(ch>='a')
+ 	{
+ 		printf("lower case");
+	 }
+	 else if(ch>='A')
+	   {
+	    printf("upper case");
+ 	}
+	 return 0;
+ }
+------------------------------------------------------
+Q10. Answer
+#include<stdio.h>
+int main()
+ {
+ 	int num;
+ 	printf("enter the number: ");
+ 	scanf("%d",&num);
+	 if(num%3==0 && num%7==0)
+ 	{
+ 		printf("divisible");
+	 }
+	 else 
+	   {
+	    printf("not divisible");
+ 	}
+	 return 0;
+ }
+-----------------------------------------------------
+Q11. Answer
+1st method =>
+#include<stdio.h>
+int main()
+ {
+ 	int a=20,b=30;
+ 	printf("the value of a is %d \n",a);
+ 	printf("the value of b is %d \n",b);
+ 	
+ 	a=a+b;
+ 	b=a-b;
+ 	a=a-b;
+ 	printf("the swap value of a is %d \n",a);
+ 	printf("the swap value of b is %d \n",b);
+	 return 0;
+ }
+
+2nd method =>
+#include<stdio.h>
+int main()
+ {
+ 	int a=20,b=30,c;
+ 	printf("the value of a is %d \n",a);
+ 	printf("the value of b is %d \n",b);
+ 	
+ 	c=a;
+ 	a=b;
+ 	b=c;
+ 	printf("the swap value of a is %d \n",a);
+ 	printf("the swap value of b is %d \n",b);
+	 return 0;
+ }
+3rd method =>
+#include<stdio.h>
+int main()
+ {
+ 	int a=20,b=30;
+ 	printf("the value of a is %d \n",a);
+ 	printf("the value of b is %d \n",b);
+ 	
+ 	a=a*b;
+ 	b=a/b;
+ 	a=a/b;
+ 	printf("the swap value of a is %d \n",a);
+ 	printf("the swap value of b is %d \n",b);
+	 return 0;
+ }
+------------------------------------------------------
+Q12. Answer
+#include<stdio.h>
+int main()
+ {
+    char ch;
+    printf("enter the gender m/f: ");
+    scanf("%c",&ch);
+    if(ch=='m')
+    {
+    	printf("male");
+	}
+	else if(ch=='f')
+	{
+		printf("female");
+	}
+	else{
+		printf("other");
+	}
+	 return 0;
+ }
