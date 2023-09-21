@@ -1,0 +1,97 @@
+Q1. Answer
+#include<stdio.h>
+ int main()
+  {
+  	int a=1;
+  	
+  	while(a<=100)
+  	
+	  {
+	  
+	  if(a%2==0)
+	  {
+	  	printf(" %d",a);
+	  }
+	  a++;
+      }
+  	return 0;
+  }
+-------------------------------------
+Q2. Answer
+#include<stdio.h>
+ int main()
+  {
+  	int a=100;
+  	
+  	while(a>0)
+  	
+	  {
+	  
+	  if(a%2==0)
+	  {
+	  	printf(" %d",a);
+	  	
+	  }
+	  else{
+	  	printf(" %d",a);
+	  
+	  a--;
+      }
+  	return 0;
+  }
+----------------------------------------
+Q3. Answer
+#include<stdio.h>
+ int main()
+  {
+  	int a=50;
+  	
+  	while(a<=100)
+  	
+	  {
+	  
+	  if(a%2!=0)
+	  {
+	  	printf(" %d",a);
+	  }
+	  a++;
+      }
+  	return 0;
+  }
+-------------------------------------------
+Q4. Answer
+#include<stdio.h>
+ int main()
+  {
+  	int a=100;
+  	
+  	while(a>=50)
+  	
+	  {
+	  
+	  if(a%2!=0)
+	  {
+	  	printf(" %d",a);
+	  }
+	  a--;
+      }
+  	return 0;
+  }
+----------------------------------------------
+Q5. Answer
+#include<stdio.h>
+ int main()
+  {
+  	int a=2;
+  	
+  	while(a<=20)
+  	
+	  {
+	    if(a%2==0)
+	    {
+	    	printf(" %d",a);
+		}
+		a++;
+	  }
+  	return 0;
+  }
