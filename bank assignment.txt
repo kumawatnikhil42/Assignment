@@ -1,0 +1,48 @@
+#include<stdio.h>
+void deposit();
+void withdraw();
+int main()
+{
+    printf("the total amount: 60000\n");
+    char a;
+    printf("choose deposit(d) or withdraw(w): ");
+    scanf("%c",&a);
+    if(a=='d'){
+        deposit();
+    }
+    else{
+        withdraw();
+    }
+   
+    return 0;
+}
+void deposit(){
+    int b,g=60000;
+    printf("enter the deposit amount: ");
+    scanf("%d",&b);
+    int c=g+b;
+
+    if(b>=50000){
+    c=c-b*5/100;
+    printf("The final amount: %d",c);
+    }
+    else{
+        printf("The final amount: %d",c);
+    }
+    
+}
+void withdraw(){
+     int b,g=60000;
+    printf("enter the withdraw amount: ");
+    scanf("%d",&b);
+    int c=g-b;
+    
+    if(b>=50000){
+        c=c-b*5/100;
+    printf("The final amount: %d",c);
+    }
+    else{
+        printf("The final amount: %d",c);
+    }
+        
+    }
