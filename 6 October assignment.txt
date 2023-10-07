@@ -1,0 +1,57 @@
+#Q1.
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print("")
+-------------------------------
+#Q2
+n=1
+for i in range(1,5):
+    for j in range(1,i+1,1):
+        print(n,end=" ")
+        n+=1
+    print("")
+-----------------------------------
+#Q3
+n=ord("a")
+for i in range(1,5):
+
+    for j in range(1,i+1):
+        print(chr(n),end=" ")
+        n+=1
+    print("")
+-----------------------------------------
+#Q4
+x="abcde"
+for i in range(0,5):
+
+    for j in range(0,i+1):
+        print(x[j],end=" ")
+        
+        
+    print("")
+-------------------------------------
+#Q5
+
+for i in range(1,5):
+    for s in range(4,i,-1):
+        print(" ",end="")
+    for j in range(1,i+1,1):
+        print("*",end="")
+        
+    print("")
+-------------------------------------------
+#Q6.
+for i in range(1,6):
+    for s in range(5,i,-1):
+        print(" ",end=" ")
+    for j in range(1,2*i):
+        print("*",end=" ")
+    print("")
+-------------------------------------
+#Q7
+x=1
+while(x<100):
+    if(x%7==0 and x%9==0):
+        print(x)
+    x+=1
