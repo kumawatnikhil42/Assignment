@@ -1,0 +1,72 @@
+Q1.
+x=input()
+y=0
+for f in x:
+    if(f=='a' or f=='e' or f=='i' or f=='o' or f=='u'):
+        y=y+1
+print("the no. of vowel is: ",y )    
+--------------------------------------------------
+Q2.
+x=input()
+y=0
+for f in x:
+    if(f=='a' or f=='e' or f=='i' or f=='o' or f=='u'):
+        continue
+    else:
+        y=y+1
+print("the no. of consonant:",y)
+---------------------------------------------------
+Q3.
+mylist2=[1,2,2.2,23,12]
+x=0
+for i in mylist2:
+    if(type(i)==int or type(i)==float):
+        x=x+i
+print("sum of numbers in list:",int(x))
+----------------------------------------------------
+Q4.
+inp=input("enter string")
+a_=e_=i_=o_=u_=0
+for ch in inp:
+    if(ch=="a" or ch=="A"):
+        a_+=1
+    elif(ch=="e" or ch=="e"):
+        e_+=1
+    elif(ch=="i" or ch=="I"):
+        i_+=1
+    elif(ch=="o" or ch=="O"):
+        o_+=1
+    elif(ch=="u" or ch=="U"):
+        u_+=1
+print("occurance of a:",a_)
+print("occurance of e:",e_)
+print("occurance of i:",i_)
+print("occurance of o:",o_)
+print("occurance of u:",u_)
+------------------------------------------------------
+Q5.
+
+inp=input("enter:")
+valid1=0
+valid2=0
+valid3=0
+valid4=0
+valid5=0
+for ch in inp:
+    if('A'<=ch<='Z'):
+        valid1=1
+    elif('j'<=ch<='t'):
+        valid2=1
+    elif(ch.isdigit()):
+        valid3=1
+    elif(ch=='@' or ch=='#' or ch=='$' or ch=='*'):
+        valid4=1
+      
+valid_length=5<=len(inp)<=15
+
+if(valid1==1 and valid2==1 and valid3==1 and valid4==1 and valid_length):
+    print("valid")
+else:
+    print("unvalid")
+
+        
